@@ -1,0 +1,40 @@
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    color: #464e6a;
+
+    margin:  50px 150px;
+}
+.texto{
+    padding-right:200px;
+
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto > *{
+    margin-bottom: 50px;
+    
+}
+
+.texto button{
+    background-color: #464e6a;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 7px;
+    border: 0;
+}
+
+.imgspace{
+    padding: 200px 250px;
+    background-color: #e1e4ed;
+    border-radius: 8px;
+    
+}
+
+.imgspace img{
+    height: 100px;
+    width: 100px;
+}
