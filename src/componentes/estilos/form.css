@@ -58,7 +58,8 @@
 .combo input{
 
     padding: 17px;
-    width: 300px;
+    margin: 10px 0px;
+    width: 400px;
 
     background-color: #e1e4ed;
     border: 0;
@@ -71,10 +72,14 @@
 }
 .formContainer button{
     width: 100%;
-    padding: 20px;
+    padding: 15px;
+    font-size: 17px;
 
     border: 0;
     background-color:#464e6a;
-    color:#e1e4ed
+    border-radius: 7px;
+    color:#e1e4ed;
+    font-weight: bold;
+
 }
 
