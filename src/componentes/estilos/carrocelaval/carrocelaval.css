@@ -1,0 +1,31 @@
+/* src/index.css */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.carrocelaval{
+    margin: 50px 0px;
+}
+
+.tituloaval{
+    white-space: pre-line;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    white-space:pre;
+    font-size: 24px;
+    margin-bottom:30px ;
+
+}
+
+
+.tituloescuro{
+    color: #6d758f;
+
+
+}
+
+.tituloclaro{
+    color: #b4b9c9;
+
+}

@@ -1,16 +1,15 @@
 .celula{
     box-shadow: 1px 1px 10px 1px #d4d4d4;
-    margin: 20px ;
+    margin: 20px;
     border-radius: 7px;
     color: #6d758f;
-    float: left;
 }
 
 .uppermid{
     background-color: #b4b9c9;
     width: 100%;
     height: 200px;
-    border-radius: 7px 7px 7px 0 ;
+    border-radius: 7px 7px 0 0 ;
 }
 
 .bottommid{

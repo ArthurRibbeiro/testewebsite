@@ -5,6 +5,7 @@ margin: 100px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    white-space:pre;
 }
 
 .vitrineContainer h3{

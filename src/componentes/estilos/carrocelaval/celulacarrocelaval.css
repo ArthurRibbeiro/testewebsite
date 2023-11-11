@@ -1,0 +1,61 @@
+.reviewContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: white;
+    border: solid #b4b9c9 2px;
+    color:#464e6a;
+
+    padding: 50px 20px 20px 20px ;
+    margin: 50px 10px;
+    border-radius: 10px;
+}
+.reviewOwner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reviewContainer div{
+    margin-bottom: 25px;
+}
+
+.estrela{
+    padding: 0px 8px;
+    transform: scale(1.5);
+    color: #b4b9c9;
+
+}
+
+.reviewContainer h3{
+    font-size: 24px;
+    padding-bottom: 5px;
+} 
+
+.circulo{
+    width: 75px; 
+  height: 75px; 
+  border-radius: 50%;
+  margin-top: -100px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e1e4ed;
+    
+}
+
+.reviewContainer:hover{
+    background: linear-gradient(to right, #464e6a    ,#b4b9c9);
+    color: white;
+
+
+}
+.reviewContainer:hover .estrela{
+    color: white;
+
+
+}

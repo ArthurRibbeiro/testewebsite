@@ -8,7 +8,7 @@ function Vitrine(){
             <div className="vitrine">
                 <div>
                     <div className="innervitrine">
-                    <span className="tomescuro">130 </span> <span className="tomclaro"> Mil</span>
+                    <span className="tomescuro">130 </span> <span className="tomclaro">Mil</span>
                     </div>
                     <p>Lorem ipsum dolor sit amet</p>
                 </div>
