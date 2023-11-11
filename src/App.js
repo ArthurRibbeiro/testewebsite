@@ -3,6 +3,7 @@ import './App.css';
 import Cabecalho from './componentes/cabecalho';
 import Apresentacao from './componentes/apresentacao';
 import Form from './componentes/form';
+import Rodape from './componentes/rodape';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Apresentacao />
 
     <Form />
+    <Rodape />
 
 
     
