@@ -1,6 +1,17 @@
+/* src/index.css */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+
 .galeria{
     display: flex;
     flex-direction: row;
 
+}
+
+.carrocelServicosSpace h2{
+    padding-left: 100px;
+    color: #6d758f;
 }
 
