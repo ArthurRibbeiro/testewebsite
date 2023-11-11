@@ -1,0 +1,68 @@
+.vitrineContainer{
+margin: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.vitrineContainer h3{
+    font-size: 16px;
+    }
+    
+.vitrineContainer p{
+    font-size: 36px;
+    }
+
+
+
+.vitrine{
+margin: 50px 0px;
+width: 100%;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.vitrine span{
+    font-size: 60px;
+}
+
+.vitrine p{
+    font-size: 16px;
+    color: #b4b9c9;
+}
+
+.vitrineContainer button{
+    padding: 10px 60px;
+    font-size: 24px;
+    background-color: #464e6a;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 7px;
+}
+
+.tomclaro{
+    color: #b4b9c9;
+    font-weight: bold;
+
+}
+
+.tomescuro{
+    color: #6d758f;
+    
+    font-weight: bold;
+
+}
+
+.innervitrine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
