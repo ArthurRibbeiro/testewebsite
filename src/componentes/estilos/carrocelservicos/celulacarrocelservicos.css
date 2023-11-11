@@ -1,0 +1,41 @@
+.celula{
+    width: 25%;
+    box-shadow: 1px 1px 10px 1px #d4d4d4;
+    margin: 20px;
+    border-radius: 7px;
+    color: #6d758f;
+}
+
+.uppermid{
+    background-color: #b4b9c9;
+    width: 100%;
+    height: 200px;
+    border-radius: 7px 7px 7px 0 ;
+}
+
+.bottommid{
+    border-radius: 0 0 7px 7px;
+    background-color: #fff;
+    padding: 25px;
+}
+
+.bottommid h4{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.bottommid li{
+    padding-bottom: 20px;
+    list-style: none;
+    
+    
+}
+.smileIco{
+    color: #b4b9c9;
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.celulaDesc{
+    display: flex;
+    flex-direction: row;
+}

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Cabecalho from './componentes/cabecalho';
 import Apresentacao from './componentes/apresentacao';
+import Carrocelservicos from './componentes/carrocelservicos/carrocelservicos';
 
 import Vitrine from './componentes/vitrine';
 
@@ -13,6 +14,9 @@ function App() {
     <>
     <Cabecalho />
     <Apresentacao />
+    <Carrocelservicos />
+
+
 
     <Vitrine />
 
