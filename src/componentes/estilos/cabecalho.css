@@ -80,3 +80,48 @@ text-decoration:none;
     padding-right: 5px;
     transform: scale(1.2);
 }
+
+.menu{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .container{
+        padding: 0px;
+        width: 100%;
+        
+    }
+
+    .img{
+        display: flex;
+        align-items: baseline;
+    }
+
+    .img img{
+        margin: 20px;
+        transform: scale(0.7);
+        float: left;
+    }
+    .navbarCombo{
+        display: none;
+    }
+    .menu{
+        display: block;
+        color: white;
+        transform: scale(3);
+    }
+
+    .divmenu{
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .divmenu button{
+        background: transparent;
+        border: transparent;
+    }
+    
+  
+}

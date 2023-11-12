@@ -29,3 +29,12 @@
     color: #b4b9c9;
 
 }
+
+@media screen and (max-width: 768px){
+    .tituloaval{
+        font-size: 16px;
+    }
+
+   
+    
+}

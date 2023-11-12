@@ -6,7 +6,7 @@ function Form(){
             <div className="formTextArea">
                 <p id="formTextTitle">Formulário</p>
                 <h1>Lorem ipsum dolor sit amet, consectetur adip scing elit, labore et magna aliqua</h1>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat </p>
+                <p id="formDesc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat </p>
             </div>
             <div className="formContainer">
 

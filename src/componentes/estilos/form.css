@@ -83,3 +83,53 @@
 
 }
 
+@media screen and (max-width: 768px){
+
+    .formSpace{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .formContainer{
+        margin: 0;
+    }
+
+    .combo input{
+        width: 100px;
+    }
+
+    .formTextArea > *{
+        margin-bottom: 10px;
+        padding: 0px;
+        text-align: left;
+    }
+    .formTextArea{
+        padding-top: 30px;
+
+    }
+
+    
+    .formTextArea h1{
+        font-size: 24px;
+    }
+
+    #formDesc{
+        margin: 30px 0;
+    }
+
+    .combo{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .combo input{
+        width: 90%;
+    }
+
+    #formdesc{
+        font-size: 20px;
+
+    }
+   
+   
+    
+}

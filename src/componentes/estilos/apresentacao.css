@@ -38,3 +38,42 @@
     height: 100px;
     width: 100px;
 }
+
+@media screen and (max-width: 768px){
+    .apresentacao{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .imgspace{
+        margin: 40px 15px;
+        padding: 50px 50px;
+        display: flex;
+
+    
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .texto{
+        margin: 0 30px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .texto h1{
+        margin: 10px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    div p{
+        text-align: center;
+    }
+    
+
+
+}

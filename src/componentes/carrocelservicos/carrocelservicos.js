@@ -11,13 +11,24 @@ import 'slick-carousel/slick/slick-theme.css';
 
 function Carrocelservicos(){
     const settings = {
+        arrows:false,
         dots: true,
-        arrows: true,
         infinite: true,
-        speed:500,
-        slidesToShow:4,
-        slidesToScroll:4,
-    }
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+                infinite: false,
+              slidesToShow: 1,
+              centerMode:true,
+              centerPadding: '10%',
+            },
+          },
+        ],
+      };
     
     return(
         <div className='carrocelServicosSpace'>

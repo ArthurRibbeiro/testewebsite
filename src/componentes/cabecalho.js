@@ -1,15 +1,29 @@
 import './estilos/cabecalho.css'
+import { BsList } from "react-icons/bs";
+import { Sidebar } from "./Header/Sidebar/index.jsx"
+
 
 import logo from '../assets/logo.png'
+
 
 import { BsFillPersonFill } from "react-icons/bs";
 
 function Cabecalho(){
+    const [sidebar, setSidebar] = useState(false);
+
+    const ShowSiderBar= () => setSidebar(!sidebar);
+
     return (
     <div className='container'>
         <div className='img'>
             <img src={logo} id="logo" />
 
+        </div>
+        <div className='divmenu' onClick={ShowSiderBar}>
+            [sidebar && <Sidebar active={setSidebar}/>]
+            <button>
+                <BsList className='menu' />
+            </button>
         </div>
         <div className="navbarCombo">
             <div className="navbar">

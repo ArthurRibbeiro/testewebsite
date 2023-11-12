@@ -38,3 +38,15 @@
     display: flex;
     flex-direction: row;
 }
+
+@media screen and (max-width: 768px){
+    .celula{
+        margin: 20px 10px;
+    }
+
+    .celulaDesc{
+        font-size: 14px;
+    }
+
+    
+}

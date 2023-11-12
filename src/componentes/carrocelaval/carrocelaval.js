@@ -14,7 +14,19 @@ function Carrocelaval() {
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode:true,
-        centerPadding: '30%'
+        centerPadding: '30%',
+        arrows:false,
+        responsive: [
+      
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          centerPadding: '10%',
+        },
+      },
+    ],
+        
       };
 
     return (

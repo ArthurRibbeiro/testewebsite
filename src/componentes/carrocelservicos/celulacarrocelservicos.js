@@ -13,7 +13,7 @@ function Celulacarrocelservicos(){
                                     <CgSmileMouthOpen className='smileIco'/>
                                 </div>
                                 <div>
-                                    <li>Faucibus turpis in eu mi bibendum neque egestas. Ante in nibh mauris  mattis molestie a. Lectus sit amet est placerat</li>
+                                    <li>Faucibus turpis in eu mi bibendum neque egestas. Ante sit amet est placerat</li>
                                 </div>
                             </div>
                             <div className='celulaDesc'>
@@ -22,7 +22,7 @@ function Celulacarrocelservicos(){
                                     <CgSmileMouthOpen className='smileIco'/>
                                 </div>
                                 <div>
-                                    <li>Facilisis mauris sit amet massa</li>
+                                    <li>Facilisis mauris sit amet</li>
                                 </div>
                             </div>
                         </ul>
