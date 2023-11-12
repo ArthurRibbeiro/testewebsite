@@ -1,17 +1,19 @@
 import './estilos/cabecalho.css'
 import { BsList } from "react-icons/bs";
-import { Sidebar } from "./Header/Sidebar/index.jsx"
+import Sidebar  from "./Header/Sidebar/index.jsx"
 
+import { useState } from 'react';
 
 import logo from '../assets/logo.png'
-
 
 import { BsFillPersonFill } from "react-icons/bs";
 
 function Cabecalho(){
     const [sidebar, setSidebar] = useState(false);
-
-    const ShowSiderBar= () => setSidebar(!sidebar);
+    const ShowSiderBar= () => {
+        setSidebar(!sidebar);
+        console.log(sidebar);
+    }
 
     return (
     <div className='container'>
