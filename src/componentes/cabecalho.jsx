@@ -22,7 +22,7 @@ function Cabecalho(){
 
         </div>
         <div className='divmenu' onClick={ShowSiderBar}>
-            [sidebar && <Sidebar active={setSidebar}/>]
+            {sidebar && <Sidebar active={setSidebar}/>}
             <button>
                 <BsList className='menu' />
             </button>
